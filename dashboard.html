@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Modern Auth</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <nav class="dashboard-nav">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/50" alt="User Avatar" class="avatar">
+                <span id="username">User</span>
+            </div>
+            <button id="logoutBtn" class="logout-btn">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </button>
+        </nav>
+        
+        <main class="dashboard-content">
+            <h1>Welcome to Your Dashboard</h1>
+            <div class="dashboard-cards">
+                <div class="card">
+                    <i class="fas fa-user-circle"></i>
+                    <h3>Profile</h3>
+                    <p>Manage your account details</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-cog"></i>
+                    <h3>Settings</h3>
+                    <p>Configure your preferences</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Analytics</h3>
+                    <p>View your statistics</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
+```
